@@ -1,0 +1,11 @@
+fever,headache,cough,cold,sore_throat,stomach_pain,diarrhea,nausea,vomiting,body_ache,muscle_pain,joint_pain,fatigue,breathlessness,chest_pain,prognosis
+1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,Viral Fever
+1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Common Cold
+0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,Gastroenteritis
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,Arthritis
+0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,Respiratory Infection
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,General Weakness
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Heart Condition
+1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,Flu
+0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,Food Poisoning
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Allergy
