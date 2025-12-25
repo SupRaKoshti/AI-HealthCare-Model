@@ -1,5 +1,5 @@
 import csv
-from model import cols
+from app.ml.model import cols
 
 description_list = {}
 precautionDictionary = {}
