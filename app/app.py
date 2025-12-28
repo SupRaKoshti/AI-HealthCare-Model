@@ -17,7 +17,10 @@ app = FastAPI(
 
 @app.post("/predict", response_model=AIResponse)
 def predict(req: SymptomRequest):
-    symptoms_list = extract_symptoms(req.symptoms, cols)
+    symptoms_list = req.symptoms
+
+    if not isinstance(symptoms_list, list):
+        symptoms_list = extract_symptoms(req.symptoms, cols)
 
     if not symptoms_list:
         return {"error": "No valid symptoms detected"}
